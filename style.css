@@ -113,12 +113,11 @@ p {
 @media screen and (max-width: 800px) {
 
     .left {
-        width: 100%;
-        height: 50%;
-        padding: 0;
-        margin: 0;
+        position: relative;
+        display: block;
+        margin: -55px auto;
     }
-
+      
     .right {
 
         position: static;
@@ -144,18 +143,19 @@ p {
 
     img {
         position: static;
-        max-width: 90%;
         width: 354px;
         height: 317px;
+        margin: 0 auto;
+        display: block;
 
     }
 
     h1 {
-        width: 263px;
-        height: 52px;
-        text-align: center;
-        font-size: 50px;
-        font-weight: 900;
+    text-align: center;
+    font-size: 50px;
+    display: block;
+    position: static;
+}
 
     }
 
